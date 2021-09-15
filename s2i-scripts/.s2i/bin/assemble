@@ -14,9 +14,10 @@ echo "this ahmed farid"
 
 cp -Rf /tmp/src/*.html ./
 
-DATE=date
+DATE=date "+%b %d, %Y @ %H:%M %p"
 
-echo "the date is $DATE" >>  ./info.html
+echo "Page built on $DATE" >> ./info.html
+
 echo "hello ahmed farid" >> ./info.html
 
 
