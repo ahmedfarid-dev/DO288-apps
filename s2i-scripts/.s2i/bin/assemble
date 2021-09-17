@@ -10,16 +10,15 @@ config_s2i
 
 ######## CUSTOMIZATION STARTS HERE ############
 
-echo "this ahmed farid"
+echo "editing by ahmed farid"
 
 cp -Rf /tmp/src/*.html ./
 
-DATE=`date "+%b %d %Y"`
+DATE=`date ' +%b %Y ,%d'`
 
-echo "Page built on $DATE" >> ./info.html
+echo "the date is $DATE" > info.html
 
-echo "hello ahmed farid" >> ./info.html
-
+ech "this is deployed by ahmed farid" > info.html
 
 ######## CUSTOMIZATION ENDS HERE ############
 
