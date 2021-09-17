@@ -18,7 +18,7 @@ DATE=`date "+%b %Y ,%d"`
 
 echo "the date is $DATE" >> info.html
 
-echo "this is deployed by ahmed farid" > > info.html
+echo "this is deployed by ahmed farid" >> info.html
 
 ######## CUSTOMIZATION ENDS HERE ############
 
