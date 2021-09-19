@@ -15,8 +15,8 @@ cp -Rf /tmp/src/*.html ./
 
 DATE=`date -I`
 
-echo "the date is $DATE" >> /info.html
-echo "ahmed farid did this" >> /info.html
+echo "the date is $DATE" >> ./info.html
+echo "ahmed farid did this" >> ./info.html
 
 ######## CUSTOMIZATION ENDS HERE ############
 
